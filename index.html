@@ -1,0 +1,81 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1,shrink-to-fit=no" />
+    <title>paratonsp | are you lost?</title>
+    <link rel="shortcut icon" href="favicon.ico">
+    <script defer="defer" src="/js/error.js"></script>
+    <link href="/css/main.bundle.css" rel="stylesheet">
+</head>
+
+<body class="active">
+    <main id="swup" class="transition-fade">
+        <div id="main-wrap">
+            <div id="borders"></div>
+            <header id="header" class="fixed" role="banner" itemscope itemtype="http://schema.org/WPHeader">
+                <div class="wrap-header">
+                    <nav class="main-navigation" itemscope itemtype="http://schema.org/SiteNavigationElement">
+                        <div id="bg-selectors">
+                            <div class="bgselectors-element">
+                                <ul>
+                                    <li data-bg="template"></li>
+                                    <li data-bg="green"></li>
+                                    <li data-bg="cyan"></li>
+                                    <li data-bg="pink"></li>
+                                    <li data-bg="rose"></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div id="title"><a href="/">
+                                <div class="heading--h6"><span>2020 /</span> paratonsp</div>
+                            </a>
+                            <div></div>
+                        </div>
+                    </nav>
+                </div>
+            </header>
+            <div class="page-content--error">
+                <section>
+                    <div class="main-container--full">
+                        <div class="row">
+                            <div class="col-12 text-center">
+                                <h1 class="h1--xl--uppercase"><span data-aos="text-up" data-aos-delay="100"
+                                        data-aos-offset="-500"><span>HEY YOU!</span></span></h1>
+                                <p class="h5"><span data-aos="text-up" data-aos-delay="200"
+                                        data-aos-offset="-500"><span>Seems you’re lost. Come back <a href="/"
+                                                class="simple--h5--line--f500">home</a></span></span></p>
+                                <p class="h5" style="color:red;"><span data-aos="text-up" data-aos-delay="200"
+                                        data-aos-offset="-500"><span><a href="/home.html" class="simple--h5--line--f500" style="color:red;">COME
+                                                HERE NOW!</a></span></span></p>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <footer class="contact" itemscope itemtype="http://schema.org/WPFooter">
+                    <div class="info"><a data-contact href="mailto:paratonsp@gmail.com"
+                            class="simple--h4--lineone--f500" data-aos="fade" data-aos-delay="500"
+                            data-aos-duration="1000" data-aos-offset="-500">paratonsp(at)gmail.com</a>
+                    </div>
+                </footer>
+            </div>
+        </div>
+    </main>
+    <div class="cursor"><svg class="cursor__svg" width="80" height="80" viewBox="0 0 80 80">
+            <path vector-effect="non-scaling-stroke" class="cursor__svg-circle"
+                d="m48.894 32.142 31.13 7.883L48.895 47l-8.87 33.026L29.55 47 .025 40.025l29.683-7.972L40.025.025z"
+                stroke="#202020" fill="none" fill-rule="evenodd" /></svg> <span class="cursor__text"></span></div>
+    <script>
+        if ('serviceWorker' in navigator) {
+            navigator.serviceWorker
+                .register('/js/sw.js')
+                .then(function () {
+                    console.log("");
+                });
+        }
+    </script>
+</body>
+
+</html>
