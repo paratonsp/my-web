@@ -2876,7 +2876,7 @@ button {
 @font-face {
     font-family: "Neue Montreal";
     src: url(b90a987a639425ac72ea.eot);
-    src: url(b90a987a639425ac72ea.eot?#iefix) format("embedded-opentype"), url(../fonts/491affdf761b85b2d0d6.woff2) format("woff2"), url(../fonts/8da421ef01f0036f2ded.woff) format("woff"), url(e9b10e4f7d37466f992f.svg#NeueMontreal-Regular) format("svg");
+    src: url(b90a987a639425ac72ea.eot?#iefix) format("embedded-opentype"), url(/fonts/491affdf761b85b2d0d6.woff2) format("woff2"), url(/fonts/8da421ef01f0036f2ded.woff) format("woff"), url(e9b10e4f7d37466f992f.svg#NeueMontreal-Regular) format("svg");
     font-weight: normal;
     font-style: normal;
     font-display: swap
@@ -2885,7 +2885,7 @@ button {
 @font-face {
     font-family: "Neue Montreal";
     src: url(21487a2d23b692a3c760.eot);
-    src: url(21487a2d23b692a3c760.eot?#iefix) format("embedded-opentype"), url(../fonts/2da02150d666b9d1e31d.woff2) format("woff2"), url(../fonts/63fd0369caf0b9c4a2de.woff) format("woff"), url(766e886daa533f5b5720.svg#NeueMontreal-Medium) format("svg");
+    src: url(21487a2d23b692a3c760.eot?#iefix) format("embedded-opentype"), url(/fonts/2da02150d666b9d1e31d.woff2) format("woff2"), url(/fonts/63fd0369caf0b9c4a2de.woff) format("woff"), url(766e886daa533f5b5720.svg#NeueMontreal-Medium) format("svg");
     font-weight: 500;
     font-style: normal;
     font-display: swap
@@ -7817,7 +7817,7 @@ html.is-animating .transition-fade {
     bottom: -5px;
     height: 100%;
     width: 34px;
-    background-image: url(fbce40ef1b5fc06255c2.svg);
+    background-image: url(../img/fbce40ef1b5fc06255c2.svg);
     background-repeat: no-repeat;
     background-position: bottom;
     background-size: 90% 90%;
